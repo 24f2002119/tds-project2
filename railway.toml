@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "./start.sh"
+
+[build.environment]
+PLAYWRIGHT_BROWSERS_PATH = "0"
